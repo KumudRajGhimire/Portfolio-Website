@@ -5,7 +5,7 @@ function Particle() {
   return (
     <Particles
       id="tsparticles"
-      params={{
+      options={{
         particles: {
           number: {
             value: 250, // Normal stars count
@@ -15,21 +15,21 @@ function Particle() {
             },
           },
           color: {
-            value: ["#ffffff", "#c2c2c2"], // White and grayish-white for normal stars
+            value: ["#ffffff", "#c2c2c2", "#aaddff", "#ffcc99", "#ffdd44", "#99aaff"], // Midnight star colors
           },
           line_linked: {
             enable: false,
             opacity: 0.03,
           },
           move: {
-            direction: "right",
-            speed: 0.05,
+            direction: "none",
+            speed: 0.1,
           },
           size: {
             value: 1.5, // Normal stars
             anim: {
               enable: true,
-              speed: 2,
+              speed: 1.5,
               size_min: 0.5,
               sync: false,
             },
@@ -51,36 +51,11 @@ function Particle() {
           },
           modes: {
             push: {
-              particles_nb: 1,
+              particles_nb: 3,
             },
           },
         },
         retina_detect: true,
-        // Adding big bright stars
-        particles_bright: {
-          number: {
-            value: 3, // Only 2-3 bright stars
-          },
-          color: {
-            value: "#ffd700", // Golden yellow bright stars
-          },
-          size: {
-            value: 5, // Bigger size for bright stars
-            random: false,
-          },
-          opacity: {
-            value: 1, // Fully bright
-            anim: {
-              enable: true,
-              speed: 0.5, // Slow twinkle effect
-              opacity_min: 0.8,
-              sync: false,
-            },
-          },
-          move: {
-            speed: 0.01, // Slightly moves
-          },
-        },
       }}
     />
   );
