@@ -47,14 +47,15 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "550px" }}
-              />
-            </Col>
+            <Col md={5} style={{ paddingBottom: 20, position: "relative", zIndex: 10 }}>
+  <img
+    src={homeLogo}
+    alt="home pic"
+    className="img-fluid"
+    style={{ maxHeight: "550px", position: "relative", zIndex: 100 }}
+  />
+</Col>
+
           </Row>
         </Container>
         <div
