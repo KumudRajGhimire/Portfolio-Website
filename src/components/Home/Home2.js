@@ -49,7 +49,7 @@ function Home2() {
               &nbsp;<br></br><br></br>
               <i>
                 I am Currntly in 4th Semester of my Engineering and have a CGPA of
-                <b className="purple"> 9.975.</b>
+                <b className="purple"> 9.74.</b>
               </i>
             </p>
           </Col>
