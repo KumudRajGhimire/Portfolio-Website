@@ -51,10 +51,10 @@ function Projects() {
               title="Exnote Web App"
               description={
                 <span>
-                  This free, **TypeScript**-powered note-sharing website for **BMSCE** students offers a vast repository of **PYQ (Previous Year Questions)**. With over **3500 active users**, it's a dynamic platform designed to enhance academic collaboration and resource accessibility for BMS College of Engineering. Check out the live application at <a href="https://exnote.vercel.app" target="_blank" rel="noopener noreferrer">exnote.vercel.app</a>.
+                  This free, **TypeScript**-powered note-sharing website for **BMSCE** students offers a vast repository of **PYQ (Previous Year Questions)**. With over **3500 active users**, it's a dynamic platform designed to enhance academic collaboration and resource accessibility for BMS College of Engineering. Check out the live application at:
                 </span>
               }
-              ghLink="https://github.com/KumudRajGhimire/exnote.git"
+              ghLink="https://exnote.vercel.app/"
             />
           </Col>
 
